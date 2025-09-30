@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>IndianCult - Festive Wear</title>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Newsreader:wght@400;500;700;800&amp;family=Noto+Sans:wght@400;500;700;900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#ec4913",
+              "background-light": "#f8f6f6",
+              "background-dark": "#221510",
+            },
+            fontFamily: {
+              display: ["Newsreader"],
+            },
+            borderRadius: { DEFAULT: "0.25rem", lg: "0.5rem", xl: "0.75rem", full: "9999px" },
+          },
+        },
+      };
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+      }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-zinc-900 dark:text-zinc-200">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="sticky top-0 z-50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm border-b border-zinc-200 dark:border-zinc-800">
+<div class="flex items-center justify-between whitespace-nowrap px-10 py-4">
+<div class="flex items-center gap-3 text-zinc-900 dark:text-white">
+<svg class="h-8 w-8 text-primary" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M39.475 21.6262C40.358 21.4363 40.6863 21.5589 40.7581 21.5934C40.7876 21.655 40.8547 21.857 40.8082 22.3336C40.7408 23.0255 40.4502 24.0046 39.8572 25.2301C38.6799 27.6631 36.5085 30.6631 33.5858 33.5858C30.6631 36.5085 27.6632 38.6799 25.2301 39.8572C24.0046 40.4502 23.0255 40.7407 22.3336 40.8082C21.8571 40.8547 21.6551 40.7875 21.5934 40.7581C21.5589 40.6863 21.4363 40.358 21.6262 39.475C21.8562 38.4054 22.4689 36.9657 23.5038 35.2817C24.7575 33.2417 26.5497 30.9744 28.7621 28.762C30.9744 26.5497 33.2417 24.7574 35.2817 23.5037C36.9657 22.4689 38.4054 21.8562 39.475 21.6262ZM4.41189 29.2403L18.7597 43.5881C19.8813 44.7097 21.4027 44.9179 22.7217 44.7893C24.0585 44.659 25.5148 44.1631 26.9723 43.4579C29.9052 42.0387 33.2618 39.5667 36.4142 36.4142C39.5667 33.2618 42.0387 29.9052 43.4579 26.9723C44.1631 25.5148 44.659 24.0585 44.7893 22.7217C44.9179 21.4027 44.7097 19.8813 43.5881 18.7597L29.2403 4.41187C27.8527 3.02428 25.8765 3.02573 24.2861 3.36776C22.6081 3.72863 20.7334 4.58419 18.8396 5.74801C16.4978 7.18716 13.9881 9.18353 11.5858 11.5858C9.18354 13.988 7.18717 16.4978 5.74802 18.8396C4.58421 20.7334 3.72865 22.6081 3.36778 24.2861C3.02574 25.8765 3.02429 27.8527 4.41189 29.2403Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+<h1 class="text-3xl font-bold tracking-tight">IndianCult</h1>
+</div>
+<nav class="flex flex-1 justify-center gap-8">
+<a class="text-zinc-700 dark:text-zinc-300 hover:text-primary dark:hover:text-primary text-base font-medium leading-normal transition-colors" href="#">New Arrivals</a>
+<a class="text-zinc-700 dark:text-zinc-300 hover:text-primary dark:hover:text-primary text-base font-medium leading-normal transition-colors" href="#">Men</a>
+<a class="text-zinc-700 dark:text-zinc-300 hover:text-primary dark:hover:text-primary text-base font-medium leading-normal transition-colors" href="#">Women</a>
+<a class="text-zinc-700 dark:text-zinc-300 hover:text-primary dark:hover:text-primary text-base font-medium leading-normal transition-colors" href="#">Kids</a>
+<a class="text-zinc-700 dark:text-zinc-300 hover:text-primary dark:hover:text-primary text-base font-medium leading-normal transition-colors" href="#">Accessories</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-transparent border border-zinc-300 dark:border-zinc-700 text-zinc-900 dark:text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/10 transition-colors">
+<span class="truncate">Sign In</span>
+</button>
+<button class="p-2 rounded-full hover:bg-zinc-200 dark:hover:bg-zinc-800 transition-colors">
+<span class="material-symbols-outlined text-zinc-700 dark:text-zinc-300">search</span>
+</button>
+<button class="relative p-2 rounded-full hover:bg-zinc-200 dark:hover:bg-zinc-800 transition-colors">
+<span class="material-symbols-outlined text-zinc-700 dark:text-zinc-300">shopping_bag</span>
+<span class="absolute top-0 right-0 block h-2 w-2 rounded-full bg-primary ring-2 ring-background-light dark:ring-background-dark"></span>
+</button>
+</div>
+</div>
+</header>
+<main class="flex-1">
+<div class="px-4 md:px-10 lg:px-20 xl:px-40 py-10">
+<div class="bg-cover bg-center flex flex-col justify-end overflow-hidden rounded-xl min-h-[400px] shadow-lg" style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.1) 50%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuA62OlHs6IYV_M_oJUwdMxJ_v1jqQVleKYTB7VHVrnfkN6wYu-1IWWnt2jxl8JgNMGj1DcAr8hT1SMNecCq_ahEI3wfATUsXgoGh0_kVCw0c3Oz2wCQbnCGDFIpXDFzE7PNv-Kcq_iuq2u0OpDAc3qVJMK7KJcYaGri4d11lOIHQv3JFZwnAPW_v5hPrke4Wo7ZBjmLS92CKgv84BA_U9leq59PsEOiCnyYh5WtzUzwaHXprhS_L7gffh5ixFj3FfAKsOsrddsepo0");'>
+<div class="p-8 md:p-12 text-white">
+<h2 class="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">Festival Sale</h2>
+<p class="text-xl md:text-2xl mt-2">Up to <span class="font-bold text-primary">50% Off</span> on selected items</p>
+<button class="mt-6 flex items-center justify-center rounded-lg h-12 px-6 bg-primary text-white text-base font-bold leading-normal tracking-wider hover:bg-primary/90 transition-colors">Shop Now</button>
+</div>
+</div>
+</div>
+<div class="px-4 md:px-10 lg:px-20 xl:px-40 py-10">
+<h2 class="text-3xl font-bold tracking-tight text-zinc-900 dark:text-white mb-6">Featured Products</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="group">
+<div class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-lg overflow-hidden relative">
+<img alt="Elegant Sarees" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB888OaK62A8TjAp3YiQouFE34GboNaNQ8qbNnaEsdT6laT-cFz6t91-EdNIqiFGFlG0iu18f_D720GPuGeCLNYnqiZxNzZN25WahPRUDRPbJcWjysci56We1-1mYkuALqepz2lD_S6ABCc5XnlIeuNdClOb4YOB6CT5O-Fug1j1rZjA2XuYls5C1IxkYHFEnJlwFqEeg4GUsv4kX1hnvClf6GY_zS5f5SULVlVhmtpH0pDXLNCbUnZ-GsLI-l0Nian4Xc9M0UuyzM"/>
+<div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+<button class="rounded-lg h-10 px-5 bg-white/90 text-zinc-900 text-sm font-bold">Quick View</button>
+</div>
+</div>
+<h3 class="text-lg font-semibold leading-normal mt-4 text-zinc-800 dark:text-zinc-200">Elegant Sarees</h3>
+<p class="text-primary font-bold">$129.99</p>
+</div>
+<div class="group">
+<div class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-lg overflow-hidden relative">
+<img alt="Men's Kurtas" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBTcd8Mgiq3HbrznqhOpugOqEAiVBMAc8NGXvnV-G7mqHslAFebz15otpxNuxOnDQnIDvN5ATIogsbAbTUwsEax3Ukwhe2z3nZA8mPs1fcIYPaRW-wK-DasvJq44-SdyLtZGmkHmSz8eoPELiB2VHhB3qm6jE1Ece1cjL3wBQXV-2dRUcpJCtqfoS3Dmo54O37TNr-JUSKPqN4gFjdvpoIRxmAuqaFtR8Tl9vPXL2vX0WXY_-gZBG_dxvCV5aOjpaROmFekv6uVVpI"/>
+<div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+<button class="rounded-lg h-10 px-5 bg-white/90 text-zinc-900 text-sm font-bold">Quick View</button>
+</div>
+</div>
+<h3 class="text-lg font-semibold leading-normal mt-4 text-zinc-800 dark:text-zinc-200">Men's Kurtas</h3>
+<p class="text-primary font-bold">$79.99</p>
+</div>
+<div class="group">
+<div class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-lg overflow-hidden relative">
+<img alt="Kids' Festive Wear" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA8yOyC2uZFCXENyxy2F9qZKy_7oHoQhVTTwATus8zTgI22hVIA8r71rm2L8RYhdu4D0QkhEIDs01wXPDuE8SUhfHO0Ep8dTBlZ-XOM3etpHEjClVUnwhHj-hl2R58A58KrGJD9xRjDjuVkW-VwgKG-GAEKDIgW6_4xr5z056mfC9uJxGuOALbn1ZCP8sPW6ddcXFd393dLP1jFf1MIjcz6yK_Ym3WuqT09a23Oo7bWXY8Wyp7Quzj79i9or2UGjASbPUW4THd0uk0"/>
+<div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+<button class="rounded-lg h-10 px-5 bg-white/90 text-zinc-900 text-sm font-bold">Quick View</button>
+</div>
+</div>
+<h3 class="text-lg font-semibold leading-normal mt-4 text-zinc-800 dark:text-zinc-200">Kids' Festive Wear</h3>
+<p class="text-primary font-bold">$59.99</p>
+</div>
+</div>
+</div>
+<div class="bg-background-light dark:bg-background-dark py-16">
+<div class="px-4 md:px-10 lg:px-20 xl:px-40">
+<h2 class="text-3xl font-bold tracking-tight text-center text-zinc-900 dark:text-white mb-12">What Our Customers Say</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="flex flex-col gap-4 bg-white dark:bg-zinc-900 p-6 rounded-lg shadow-md">
+<div class="flex items-center gap-4">
+<img alt="Priya Sharma" class="w-12 h-12 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBmLVdoqLV3d9k5LxvKfItxZNlUs2bL7WOrmvCh3X87vAVjyimKof74JmAiWmREapGn5Zr0q8FQlFYyb7FyV7xqWvaRzYl-f0iMMtFPuKC0bsh4oMYXmj1hlx-uw0KjuzRMOw26CyqgI19uC7F0CZ7hVPImgIDaojoWbkUAOOmkT7Ml9GrONnZ7DPtMLrieWGlAWkpW6PAjVGLuuXSBl8tLzxPk5e5hCYpqtDFlya1B_DvWlNb20LORgGe4tvBwsiaHtZj-oamzEFA"/>
+<div>
+<p class="text-zinc-900 dark:text-white text-base font-semibold">Priya Sharma</p>
+<p class="text-zinc-500 dark:text-zinc-400 text-sm">2 months ago</p>
+</div>
+</div>
+<div class="flex gap-0.5 text-primary">
+<span class="material-symbols-outlined !text-xl">star</span>
+<span class="material-symbols-outlined !text-xl">star</span>
+<span class="material-symbols-outlined !text-xl">star</span>
+<span class="material-symbols-outlined !text-xl">star</span>
+<span class="material-symbols-outlined !text-xl">star</span>
+</div>
+<p class="text-zinc-700 dark:text-zinc-300 text-base leading-relaxed">"I absolutely loved the saree I purchased from IndianCult! The fabric was high quality, and the design was even more beautiful in person. I received so many compliments at the festival."</p>
+</div>
+<div class="flex flex-col gap-4 bg-white dark:bg-zinc-900 p-6 rounded-lg shadow-md">
+<div class="flex items-center gap-4">
+<img alt="Arjun Patel" class="w-12 h-12 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMTBr6UZztdfNBFijvGsN9yULH9k0LDWwA8dgDQ_g7orqPhrtAVMemkX4aEqUNEmqDKPbowfpc0AvrwzGFtHkM7k0cQj5apUKv-V4k6AWeJ3ZHoCxREUOwuUepjmsMSt8TFTJZ_DJKA9h8UaVu0qxx5TGO8OXzvGNKSjra6E6XXzTjDpG1QYcujDU7-10XA7Yf63BFIUrYzptBm_nnc17XR3DyxRibgitQ9XAFl7itxEm1o-5MrUSffHfxUoWKeapXDFxZsrSjYUw"/>
+<div>
+<p class="text-zinc-900 dark:text-white text-base font-semibold">Arjun Patel</p>
+<p class="text-zinc-500 dark:text-zinc-400 text-sm">3 months ago</p>
+</div>
+</div>
+<div class="flex gap-0.5 text-primary">
+<span class="material-symbols-outlined !text-xl">star</span>
+<span class="material-symbols-outlined !text-xl">star</span>
+<span class="material-symbols-outlined !text-xl">star</span>
+<span class="material-symbols-outlined !text-xl">star</span>
+<span class="material-symbols-outlined !text-xl text-zinc-300 dark:text-zinc-600">star_outline</span>
+</div>
+<p class="text-zinc-700 dark:text-zinc-300 text-base leading-relaxed">"The kurta I ordered fit perfectly and was very comfortable to wear. The embroidery was well-done, and it looked great for the occasion. I'll definitely be buying more from here."</p>
+</div>
+<div class="flex flex-col gap-4 bg-white dark:bg-zinc-900 p-6 rounded-lg shadow-md">
+<div class="flex items-center gap-4">
+<img alt="Meera Kapoor" class="w-12 h-12 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBn1e6yyJPE-uTJFZ0xhdxZBnP1yhIHFbUNT9prU1R0aaHAkiFgXk9Jhq1dmLnQ7herbWWsYZIqCuAn35YSsgphgvTWwZmmIOAHCMkXQI0RGJkQ-jcyD0-Waaa4tNoXmURXvK3G0WecXh1qFCvOW9ipeKBILEvmFzHEznWSBXFKq_xmKirwdIEsY3bf_Wr5J8P0YdkmYCDojLkhC_yawjTXjqH9WbYobXOwCF3902W-ouEu5O50Oq2IkmYS2fdzo-vd1SgJvzO7z0Q"/>
+<div>
+<p class="text-zinc-900 dark:text-white text-base font-semibold">Meera Kapoor</p>
+<p class="text-zinc-500 dark:text-zinc-400 text-sm">4 months ago</p>
+</div>
+</div>
+<div class="flex gap-0.5 text-primary">
+<span class="material-symbols-outlined !text-xl">star</span>
+<span class="material-symbols-outlined !text-xl">star</span>
+<span class="material-symbols-outlined !text-xl">star</span>
+<span class="material-symbols-outlined !text-xl">star</span>
+<span class="material-symbols-outlined !text-xl">star</span>
+</div>
+<p class="text-zinc-700 dark:text-zinc-300 text-base leading-relaxed">"IndianCult has the best collection of festive wear for kids. My daughter looked adorable in her outfit, and it was easy for her to move around in. The quality is excellent, and it arrived quickly."</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer class="bg-zinc-100 dark:bg-zinc-900 text-zinc-600 dark:text-zinc-400">
+<div class="px-4 md:px-10 lg:px-20 xl:px-40 py-12 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8">
+<div class="col-span-2 lg:col-span-1">
+<div class="flex items-center gap-3 text-zinc-900 dark:text-white mb-4">
+<svg class="h-7 w-7 text-primary" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M39.475 21.6262C40.358 21.4363 40.6863 21.5589 40.7581 21.5934C40.7876 21.655 40.8547 21.857 40.8082 22.3336C40.7408 23.0255 40.4502 24.0046 39.8572 25.2301C38.6799 27.6631 36.5085 30.6631 33.5858 33.5858C30.6631 36.5085 27.6632 38.6799 25.2301 39.8572C24.0046 40.4502 23.0255 40.7407 22.3336 40.8082C21.8571 40.8547 21.6551 40.7875 21.5934 40.7581C21.5589 40.6863 21.4363 40.358 21.6262 39.475C21.8562 38.4054 22.4689 36.9657 23.5038 35.2817C24.7575 33.2417 26.5497 30.9744 28.7621 28.762C30.9744 26.5497 33.2417 24.7574 35.2817 23.5037C36.9657 22.4689 38.4054 21.8562 39.475 21.6262ZM4.41189 29.2403L18.7597 43.5881C19.8813 44.7097 21.4027 44.9179 22.7217 44.7893C24.0585 44.659 25.5148 44.1631 26.9723 43.4579C29.9052 42.0387 33.2618 39.5667 36.4142 36.4142C39.5667 33.2618 42.0387 29.9052 43.4579 26.9723C44.1631 25.5148 44.659 24.0585 44.7893 22.7217C44.9179 21.4027 44.7097 19.8813 43.5881 18.7597L29.2403 4.41187C27.8527 3.02428 25.8765 3.02573 24.2861 3.36776C22.6081 3.72863 20.7334 4.58419 18.8396 5.74801C16.4978 7.18716 13.9881 9.18353 11.5858 11.5858C9.18354 13.988 7.18717 16.4978 5.74802 18.8396C4.58421 20.7334 3.72865 22.6081 3.36778 24.2861C3.02574 25.8765 3.02429 27.8527 4.41189 29.2403Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+<h2 class="text-2xl font-bold tracking-tight">IndianCult</h2>
+</div>
+<p class="text-sm">Celebrating traditions with a modern touch. Your one-stop shop for festive wear.</p>
+</div>
+<div>
+<h3 class="font-bold text-zinc-900 dark:text-white mb-4">Shop</h3>
+<ul class="space-y-2">
+<li><a class="hover:text-primary transition-colors" href="#">New Arrivals</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Men</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Women</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Kids</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Accessories</a></li>
+</ul>
+</div>
+<div>
+<h3 class="font-bold text-zinc-900 dark:text-white mb-4">About Us</h3>
+<ul class="space-y-2">
+<li><a class="hover:text-primary transition-colors" href="#">Our Story</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Careers</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Press</a></li>
+</ul>
+</div>
+<div>
+<h3 class="font-bold text-zinc-900 dark:text-white mb-4">Support</h3>
+<ul class="space-y-2">
+<li><a class="hover:text-primary transition-colors" href="#">Contact Us</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">FAQs</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Shipping &amp; Returns</a></li>
+</ul>
+</div>
+<div>
+<h3 class="font-bold text-zinc-900 dark:text-white mb-4">Follow Us</h3>
+<div class="flex space-x-4">
+<a class="hover:text-primary transition-colors" href="#">
+<svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path clip-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" fill-rule="evenodd"></path></svg>
+</a>
+<a class="hover:text-primary transition-colors" href="#">
+<svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.71v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path></svg>
+</a>
+<a class="hover:text-primary transition-colors" href="#">
+<svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path clip-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.024.06 1.378.06 3.808s-.012 2.784-.06 3.808c-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.024.048-1.378.06-3.808.06s-2.784-.012-3.808-.06c-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.048-1.024-.06-1.378-.06-3.808s.012-2.784.06-3.808c.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 016.345 2.525c.636-.247 1.363-.416 2.427-.465C9.793 2.013 10.148 2 12.315 2zm-1.161 1.043c-1.06.048-1.696.21-2.227.427A3.396 3.396 0 006.49 4.34a3.396 3.396 0 00-1.205 1.204c-.218.531-.379 1.167-.427 2.227-.049 1.021-.06 1.366-.06 3.76s.011 2.739.06 3.76c.048 1.06.209 1.696.427 2.227a3.396 3.396 0 001.205 1.204 3.396 3.396 0 001.204 1.205c.531.218 1.167.379 2.227.427 1.021.049 1.366.06 3.76.06s2.739-.011 3.76-.06c1.06-.048 1.696-.209 2.227-.427a3.396 3.396 0 001.204-1.205 3.396 3.396 0 001.205-1.204c.218-.531.379-1.167.427-2.227.049-1.021.06-1.366.06-3.76s-.011-2.739-.06-3.76c-.048-1.06-.209-1.696-.427-2.227a3.396 3.396 0 00-1.205-1.204 3.396 3.396 0 00-1.204-1.205c-.531-.218-1.167-.379-2.227-.427C15.42 3.053 15.075 3.043 12.315 3.043h-2.122zM12 6.865A5.135 5.135 0 1012 17.135 5.135 5.135 0 0012 6.865zm0 8.27A3.135 3.135 0 1112 10a3.135 3.135 0 010 5.135zm4.965-7.94a1.2 1.2 0 100-2.4 1.2 1.2 0 000 2.4z" fill-rule="evenodd"></path></svg>
+</a>
+</div>
+</div>
+</div>
+<div class="border-t border-zinc-200 dark:border-zinc-800 px-4 md:px-10 lg:px-20 xl:px-40 py-6 text-center text-sm">
+<p>© 2024 IndianCult. All rights reserved.</p>
+</div>
+</footer>
+</div>
+</div>
+
+</body></html>
