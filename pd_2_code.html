@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<title>IndianCult - Product Detail</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#ec4913",
+              "background-light": "#f8f6f6",
+              "background-dark": "#221510",
+            },
+            fontFamily: {
+              "display": ["Plus Jakarta Sans"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-200">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<header class="sticky top-0 z-20 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm border-b border-gray-200 dark:border-gray-800">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between py-4">
+<div class="flex items-center gap-8">
+<a class="flex items-center gap-2 text-gray-900 dark:text-white" href="#">
+<div class="w-8 h-8 text-primary">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M39.475 21.6262C40.358 21.4363 40.6863 21.5589 40.7581 21.5934C40.7876 21.655 40.8547 21.857 40.8082 22.3336C40.7408 23.0255 40.4502 24.0046 39.8572 25.2301C38.6799 27.6631 36.5085 30.6631 33.5858 33.5858C30.6631 36.5085 27.6632 38.6799 25.2301 39.8572C24.0046 40.4502 23.0255 40.7407 22.3336 40.8082C21.8571 40.8547 21.6551 40.7875 21.5934 40.7581C21.5589 40.6863 21.4363 40.358 21.6262 39.475C21.8562 38.4054 22.4689 36.9657 23.5038 35.2817C24.7575 33.2417 26.5497 30.9744 28.7621 28.762C30.9744 26.5497 33.2417 24.7574 35.2817 23.5037C36.9657 22.4689 38.4054 21.8562 39.475 21.6262ZM4.41189 29.2403L18.7597 43.5881C19.8813 44.7097 21.4027 44.9179 22.7217 44.7893C24.0585 44.659 25.5148 44.1631 26.9723 43.4579C29.9052 42.0387 33.2618 39.5667 36.4142 36.4142C39.5667 33.2618 42.0387 29.9052 43.4579 26.9723C44.1631 25.5148 44.659 24.0585 44.7893 22.7217C44.9179 21.4027 44.7097 19.8813 43.5881 18.7597L29.2403 4.41187C27.8527 3.02428 25.8765 3.02573 24.2861 3.36776C22.6081 3.72863 20.7334 4.58419 18.8396 5.74801C16.4978 7.18716 13.9881 9.18353 11.5858 11.5858C9.18354 13.988 7.18717 16.4978 5.74802 18.8396C4.58421 20.7334 3.72865 22.6081 3.36778 24.2861C3.02574 25.8765 3.02429 27.8527 4.41189 29.2403Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-2xl font-bold">IndianCult</h2>
+</a>
+<nav class="hidden md:flex items-center gap-6">
+<a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="#">Men</a>
+<a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="#">Women</a>
+<a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="#">Kids</a>
+<a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="#">Jewelry</a>
+<a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="#">Footwear</a>
+</nav>
+</div>
+<div class="flex items-center justify-end gap-4">
+<div class="relative w-full max-w-xs">
+<div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+<svg aria-hidden="true" class="h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z" fill-rule="evenodd"></path>
+</svg>
+</div>
+<input class="w-full pl-10 pr-4 py-2 border rounded-lg bg-gray-100 dark:bg-gray-800 border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Search" type="text"/>
+</div>
+<button class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M178,32c-20.65,0-38.73,8.88-50,23.89C116.73,40.88,98.65,32,78,32A62.07,62.07,0,0,0,16,94c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,220.66,240,164,240,94A62.07,62.07,0,0,0,178,32ZM128,206.8C109.74,196.16,32,147.69,32,94A46.06,46.06,0,0,1,78,48c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,147.61,146.24,196.15,128,206.8Z"></path>
+</svg>
+</button>
+<button class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg">
+<path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,160H40V56H216V200ZM176,88a48,48,0,0,1-96,0,8,8,0,0,1,16,0,32,32,0,0,0,64,0,8,8,0,0,1,16,0Z"></path>
+</svg>
+</button>
+</div>
+</div>
+</div>
+</header>
+<main class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+<div class="lg:sticky top-28 h-fit">
+<div class="grid grid-cols-2 gap-4">
+<div class="col-span-2">
+<img alt="Main product image" class="w-full h-auto object-cover rounded-lg shadow-md" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDe-tcVKcXaubGF_rNKZGohl4KkMuLM2--DrysidMOVCZu7hpLqWLM-L492FK7qlLLK11dshP8MRj8cTL-XZFf6ml_qPG9cZ8dBjdFGlQNBN55TjAfmYg17DfsoUiZ2P-N3UNqROWY-_nmW3_lW610U8zhhzXxvuEi5Wl0-uUMouRuSl6NbDLhSB4qqos_IAvu5pofTJfMANsVIRtgQZCysRwBFZvftPqGdPChsWI6nBQwbrLpf7rQzjzxILqNi7Crddz5KUmq3QVw"/>
+</div>
+<div>
+<img alt="Product detail image 1" class="w-full h-auto object-cover rounded-lg shadow-md" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBdsa788QRaW9wGJjM1dhdU0Ri56NAtSn5IFrXW1wZJA9rRa26Bq9jzsFogrs_DrModwSihKx3kb0kcI92bqwm7XsvDmlGnWOMLyM1ZzfZnuX_bvXJLj-GR47vbnmJCay2NAPYlRMsZkxtrPDQy53uOcJVJzT9jEc5Ml5wIFdy9SmdVL9cEJJuBdoxL9CLOjaq-el7MUnYC1oamnvpxA3K6uFU1KWuFoAql0uGx5doZYiKnPFgNVUbgpNHduU_-CuWhqppFUYw_Jhk"/>
+</div>
+<div>
+<img alt="Product detail image 2" class="w-full h-auto object-cover rounded-lg shadow-md" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDvx1rw9jvmDNZFoENBXXlC67yX5SKkqxmqn4n5ITAZv4Bfddi3iLTCKANw5HRl5T4VpO6ndDE851jMSCnR3vmeiB8uGvtoTD8glYGtQLeCkKp73i6yNO6AxcEn2fF_r43bAmQfpL4A0UZOeCu7BrVPCDqyIB70zacys9Jifrwr5lmRDJnQ5m-yAsVuq7v-PTKvxn1exHCFrpBr_eCUsALxgd-M80_TQW7VzBk01p3MEkwJY3GOVRH2y5BlAgVyl-a9HOvmkwaZxf8"/>
+</div>
+</div>
+</div>
+<div>
+<div class="mb-4">
+<nav aria-label="Breadcrumb">
+<ol class="flex items-center gap-1.5 text-sm text-gray-500 dark:text-gray-400">
+<li><a class="hover:text-primary" href="#">Home</a></li>
+<li><span class="text-gray-400 dark:text-gray-500">/</span></li>
+<li><a class="hover:text-primary" href="#">Women</a></li>
+<li><span class="text-gray-400 dark:text-gray-500">/</span></li>
+<li class="font-medium text-gray-800 dark:text-gray-200">Ethnic Wear</li>
+</ol>
+</nav>
+</div>
+<h1 class="text-3xl font-bold text-gray-900 dark:text-white mb-2">Elegant Embroidered Anarkali Suit</h1>
+<p class="text-sm text-gray-500 dark:text-gray-400 mb-4">Brand: EthnicChic | Style: Anarkali | Fabric: Silk Blend</p>
+<p class="text-base leading-relaxed mb-6">This exquisite Anarkali suit features intricate embroidery and a flattering silhouette, perfect for festive occasions and celebrations. Made from a luxurious silk blend, it offers both comfort and elegance.</p>
+<div class="mb-6">
+<h3 class="text-lg font-bold text-gray-900 dark:text-white mb-3">Size</h3>
+<div class="flex flex-wrap gap-3">
+<label class="cursor-pointer">
+<input class="sr-only peer" name="size" type="radio"/>
+<div class="w-12 h-12 flex items-center justify-center rounded-lg border border-gray-300 dark:border-gray-700 text-sm font-medium peer-checked:border-2 peer-checked:border-primary peer-checked:bg-primary/10 transition">XS</div>
+</label>
+<label class="cursor-pointer">
+<input checked="" class="sr-only peer" name="size" type="radio"/>
+<div class="w-12 h-12 flex items-center justify-center rounded-lg border border-gray-300 dark:border-gray-700 text-sm font-medium peer-checked:border-2 peer-checked:border-primary peer-checked:bg-primary/10 transition">S</div>
+</label>
+<label class="cursor-pointer">
+<input class="sr-only peer" name="size" type="radio"/>
+<div class="w-12 h-12 flex items-center justify-center rounded-lg border border-gray-300 dark:border-gray-700 text-sm font-medium peer-checked:border-2 peer-checked:border-primary peer-checked:bg-primary/10 transition">M</div>
+</label>
+<label class="cursor-pointer">
+<input class="sr-only peer" name="size" type="radio"/>
+<div class="w-12 h-12 flex items-center justify-center rounded-lg border border-gray-300 dark:border-gray-700 text-sm font-medium peer-checked:border-2 peer-checked:border-primary peer-checked:bg-primary/10 transition">L</div>
+</label>
+<label class="cursor-pointer">
+<input class="sr-only peer" name="size" type="radio"/>
+<div class="w-12 h-12 flex items-center justify-center rounded-lg border border-gray-300 dark:border-gray-700 text-sm font-medium peer-checked:border-2 peer-checked:border-primary peer-checked:bg-primary/10 transition">XL</div>
+</label>
+</div>
+</div>
+<div class="mb-6">
+<h3 class="text-lg font-bold text-gray-900 dark:text-white mb-3">Color</h3>
+<div class="flex flex-wrap gap-4">
+<label class="cursor-pointer">
+<input checked="" class="sr-only peer" name="color" type="radio"/>
+<div class="w-10 h-10 rounded-full border-2 border-transparent peer-checked:ring-2 peer-checked:ring-offset-2 peer-checked:ring-offset-background-light dark:peer-checked:ring-offset-background-dark peer-checked:ring-primary" style="background-color: #ffd700;"></div>
+</label>
+<label class="cursor-pointer">
+<input class="sr-only peer" name="color" type="radio"/>
+<div class="w-10 h-10 rounded-full border-2 border-transparent peer-checked:ring-2 peer-checked:ring-offset-2 peer-checked:ring-offset-background-light dark:peer-checked:ring-offset-background-dark peer-checked:ring-primary" style="background-color: #008000;"></div>
+</label>
+<label class="cursor-pointer">
+<input class="sr-only peer" name="color" type="radio"/>
+<div class="w-10 h-10 rounded-full border-2 border-transparent peer-checked:ring-2 peer-checked:ring-offset-2 peer-checked:ring-offset-background-light dark:peer-checked:ring-offset-background-dark peer-checked:ring-primary" style="background-color: #0000ff;"></div>
+</label>
+</div>
+</div>
+<div class="flex items-baseline gap-4 mb-6">
+<span class="text-3xl font-bold text-primary">₹ 4,999</span>
+<span class="text-lg text-gray-500 dark:text-gray-400 line-through">₹ 6,999</span>
+</div>
+<button class="w-full bg-primary text-white font-bold py-3 px-5 rounded-lg text-lg hover:bg-opacity-90 transition-all shadow-lg hover:shadow-primary/40">
+              Add to Cart
+            </button>
+</div>
+</div>
+<div class="mt-16 pt-12 border-t border-gray-200 dark:border-gray-800">
+<h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-8">Customer Reviews</h2>
+<div class="flex flex-col md:flex-row gap-8">
+<div class="flex-shrink-0">
+<div class="flex flex-col items-center p-6 rounded-lg bg-gray-100 dark:bg-gray-800/50">
+<p class="text-5xl font-black text-gray-900 dark:text-white">4.5</p>
+<div class="flex text-primary my-2">
+<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+<svg class="w-5 h-5 text-gray-300 dark:text-gray-600" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+</div>
+<p class="text-sm text-gray-500 dark:text-gray-400">Based on 125 reviews</p>
+</div>
+</div>
+<div class="w-full">
+<div class="space-y-2">
+<div class="flex items-center gap-2"><span class="w-4 text-sm font-medium">5</span><div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5"><div class="bg-primary h-2.5 rounded-full" style="width: 40%"></div></div><span class="text-sm text-gray-500 dark:text-gray-400 w-8 text-right">40%</span></div>
+<div class="flex items-center gap-2"><span class="w-4 text-sm font-medium">4</span><div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5"><div class="bg-primary h-2.5 rounded-full" style="width: 30%"></div></div><span class="text-sm text-gray-500 dark:text-gray-400 w-8 text-right">30%</span></div>
+<div class="flex items-center gap-2"><span class="w-4 text-sm font-medium">3</span><div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5"><div class="bg-primary h-2.5 rounded-full" style="width: 15%"></div></div><span class="text-sm text-gray-500 dark:text-gray-400 w-8 text-right">15%</span></div>
+<div class="flex items-center gap-2"><span class="w-4 text-sm font-medium">2</span><div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5"><div class="bg-primary h-2.5 rounded-full" style="width: 10%"></div></div><span class="text-sm text-gray-500 dark:text-gray-400 w-8 text-right">10%</span></div>
+<div class="flex items-center gap-2"><span class="w-4 text-sm font-medium">1</span><div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5"><div class="bg-primary h-2.5 rounded-full" style="width: 5%"></div></div><span class="text-sm text-gray-500 dark:text-gray-400 w-8 text-right">5%</span></div>
+</div>
+</div>
+</div>
+<div class="mt-12 space-y-8">
+<div class="flex flex-col gap-4 p-6 rounded-lg bg-background-light dark:bg-gray-800/50">
+<div class="flex items-center gap-4">
+<img alt="Priya Sharma" class="h-12 w-12 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWF6GioMVgoA4EwZBmf-eZsC4XIdzKkTFKNSarOtakOIYhLfbxn247hvYop_wHFV8e18Vs41HXxPGCdoRs9ENJFivr-2usW1hoVcfNFv0aOicD8Iq8y-YZhcGo_UCp5wlW_IuVNuCHGRpRZAr6bZpRPPRsHAvI4TjmSaxHNRMeN1eYf7jOtIs6XTZ0xbVd9MAHBLQeVEU8itLnvthAZpChPaHVZAxH92IgfZsJ0gDh9_5g6FRYb3cdtBREx_avELPWf2GF3fWg-WY"/>
+<div>
+<p class="font-semibold text-gray-900 dark:text-white">Priya Sharma</p>
+<p class="text-sm text-gray-500 dark:text-gray-400">1 month ago</p>
+</div>
+</div>
+<div class="flex text-primary">
+<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+</div>
+<p class="text-base leading-relaxed">Absolutely stunning! The embroidery is even more beautiful in person, and the fit is perfect. I received so many compliments at the event.</p>
+</div>
+<div class="flex flex-col gap-4 p-6 rounded-lg bg-background-light dark:bg-gray-800/50">
+<div class="flex items-center gap-4">
+<img alt="Anjali Patel" class="h-12 w-12 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB9SAucHrSwKPN4YgoEJUKGDWTnmjMuGHW8Ft8CPnZe7YRYDZsSiZ94NsZrmFhX_1S4d9vzAQui20QOsysd40hfIpnvduCuyRqkqGkXp2Y082B0F5HWGP1UFVEAV7m7Aa-Dl2DZ4miZL5VEcL-b9S24M218iP8hdCeUtn18WYWJ0PODMIHyPiVF8MYJb6BdyXhBDyFTERanfN3sByx3IDxvXxHDrrv2G0yotBv564fYh4iGVeAmcw5Zi7aav7V5EdLvU4eIlU34cV8"/>
+<div>
+<p class="font-semibold text-gray-900 dark:text-white">Anjali Patel</p>
+<p class="text-sm text-gray-500 dark:text-gray-400">2 months ago</p>
+</div>
+</div>
+<div class="flex text-primary">
+<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+<svg class="w-5 h-5 text-gray-300 dark:text-gray-600" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+</div>
+<p class="text-base leading-relaxed">The suit is lovely and well-made. The color is vibrant, and the fabric feels luxurious. I would recommend ordering a size up if you prefer a looser fit.</p>
+</div>
+</div>
+</div>
+<div class="mt-16 pt-12 border-t border-gray-200 dark:border-gray-800">
+<h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-8">Related Products</h2>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+<div class="group">
+<div class="aspect-w-3 aspect-h-4 overflow-hidden rounded-lg mb-4">
+<img alt="Embroidered Silk Saree" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCS5q-FsWlvUxlhfImifsTB1QIM3xeeJuS4Grm-Ge0OkYk1OYR4VcAG4AUmMjrHpQFKPC8IKEBC5qkJYLYbvDay7-hJpJ5SzYio7TY-TZYfSeap1UwBnKvXh6fyRCCYRlkRp-NnZ2Lw4hBGBmawfQCB4z-JCwsyHFShC9vuGsXDKlSOOqc3w-3zVaJxBYQ13haxBfNFfd67pNvO61tjbgTTTeXZCnnpf8ULtgPI4WmBjDLV8cfX268kLTU2hbZKR2SyO0usEw8nwsM"/>
+</div>
+<h3 class="text-base font-medium text-gray-900 dark:text-white">Embroidered Silk Saree</h3>
+<p class="text-sm text-primary">₹ 3,499</p>
+</div>
+<div class="group">
+<div class="aspect-w-3 aspect-h-4 overflow-hidden rounded-lg mb-4">
+<img alt="Festive Lehenga Choli" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCEif7RfpWCKaKHnZr3-6oAuuyrrB7URJqnt9TcqmG98oINMzopd9TMapO2af5DmXkJ-PNiZ7IPZJi66ASkBkJfoPTZrWwOYQD6AMmQbAmvRFBBHwZqpzE_opbLYAmOx4WRrykuHccgGsUX6SXp5ExpvkMvMZXaEaLqcqrip4NQlTCoKrMTkxleiZd4VCpLoqHxIJvg3mWqEag_f25Egj6BHrfbwwvQUBSUhf_4wHT1PK-hyyYa805s8QINUUjtFdtV3LUoBNRFPwY"/>
+</div>
+<h3 class="text-base font-medium text-gray-900 dark:text-white">Festive Lehenga Choli</h3>
+<p class="text-sm text-primary">₹ 5,999</p>
+</div>
+<div class="group">
+<div class="aspect-w-3 aspect-h-4 overflow-hidden rounded-lg mb-4">
+<img alt="Designer Salwar Kameez" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCN3IXi3Jy2EcFe3dVM-WZRb_Mj1L5wn8ughXITh5UN_9l-DyQvT1DRCa_nTbPZh1Ev1EOTE-fyTNj4k6LJtk6RIgEd_Y2HCmAioVgIu6qvNNGxtTOx9YAhOHI0gugpN_gGGwjkCV6oDAZn9sxRu94hTu3IGWS50eWUnYUH8Jt2r-tSsoGnXiJ5CCZOKR07bqtafw1NOzfuX0qtK4D2TxZ8KgvenP1rAafKc-zbW-e-uKBxNwo8RSo9hIB7X9ZQNRfU_GAFYzGRH4"/>
+</div>
+<h3 class="text-base font-medium text-gray-900 dark:text-white">Designer Salwar Kameez</h3>
+<p class="text-sm text-primary">₹ 2,999</p>
+</div>
+<div class="group">
+<div class="aspect-w-3 aspect-h-4 overflow-hidden rounded-lg mb-4">
+<img alt="Traditional Jutti" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDGSLcKhlzJVrUe-kPLRAj8KB_f9JWNu0Up-i-XQ4TPXpGmKnPnbMO7POS003fB3PlgxOvPd4iyaxFJ6RBbILAqz8QnzlYuNtWLRvJ2ZZNEguewpG7R5B_ASpNXXngOkcxHCpdlOUvLpfyQpLUTcfFHacRcRJZFP_wBeGKs3ph5hE63V6-7kpb13aO_0WUencltdecuYByvms5s5UthH5TMyDrnXD-qdbI7SgXWfhPWSK6P8ATTqaq_ndDx4SRPEhshcoCpBgRbyVQ"/>
+</div>
+<h3 class="text-base font-medium text-gray-900 dark:text-white">Traditional Jutti</h3>
+<p class="text-sm text-primary">₹ 1,499</p>
+</div>
+</div>
+</div>
+</main>
+</div>
+
+</body></html>
