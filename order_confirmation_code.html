@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>IndianCult - Order Confirmation</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#ec4913",
+            "background-light": "#f8f6f6",
+            "background-dark": "#221510",
+            "foreground-light": "#181311",
+            "foreground-dark": "#e8e3e1",
+            "card-light": "#ffffff",
+            "card-dark": "#2a1a14",
+            "muted-light": "#896b61",
+            "muted-dark": "#a08c86",
+            "border-light": "#f4f1f0",
+            "border-dark": "#3c2a24"
+          },
+          fontFamily: {
+            "display": ["Plus Jakarta Sans", "sans-serif"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.5rem",
+            "lg": "0.75rem",
+            "xl": "1rem",
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-foreground-light dark:text-foreground-dark">
+<div class="flex flex-col min-h-screen">
+<header class="sticky top-0 z-10 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm border-b border-border-light dark:border-border-dark">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-20">
+<div class="flex items-center gap-8">
+<a class="flex items-center gap-2 text-foreground-light dark:text-foreground-dark" href="#">
+<svg class="h-8 w-8 text-primary" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M39.475 21.6262C40.358 21.4363 40.6863 21.5589 40.7581 21.5934C40.7876 21.655 40.8547 21.857 40.8082 22.3336C40.7408 23.0255 40.4502 24.0046 39.8572 25.2301C38.6799 27.6631 36.5085 30.6631 33.5858 33.5858C30.6631 36.5085 27.6632 38.6799 25.2301 39.8572C24.0046 40.4502 23.0255 40.7407 22.3336 40.8082C21.8571 40.8547 21.6551 40.7875 21.5934 40.7581C21.5589 40.6863 21.4363 40.358 21.6262 39.475C21.8562 38.4054 22.4689 36.9657 23.5038 35.2817C24.7575 33.2417 26.5497 30.9744 28.7621 28.762C30.9744 26.5497 33.2417 24.7574 35.2817 23.5037C36.9657 22.4689 38.4054 21.8562 39.475 21.6262ZM4.41189 29.2403L18.7597 43.5881C19.8813 44.7097 21.4027 44.9179 22.7217 44.7893C24.0585 44.659 25.5148 44.1631 26.9723 43.4579C29.9052 42.0387 33.2618 39.5667 36.4142 36.4142C39.5667 33.2618 42.0387 29.9052 43.4579 26.9723C44.1631 25.5148 44.659 24.0585 44.7893 22.7217C44.9179 21.4027 44.7097 19.8813 43.5881 18.7597L29.2403 4.41187C27.8527 3.02428 25.8765 3.02573 24.2861 3.36776C22.6081 3.72863 20.7334 4.58419 18.8396 5.74801C16.4978 7.18716 13.9881 9.18353 11.5858 11.5858C9.18354 13.988 7.18717 16.4978 5.74802 18.8396C4.58421 20.7334 3.72865 22.6081 3.36778 24.2861C3.02574 25.8765 3.02429 27.8527 4.41189 29.2403Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+<span class="text-2xl font-bold">IndianCult</span>
+</a>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Men</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Women</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Kids</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Shoes</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Jewelry</a>
+</nav>
+</div>
+<div class="flex items-center justify-end gap-4">
+<div class="hidden md:flex relative items-center">
+<input class="bg-background-light dark:bg-card-dark border border-border-light dark:border-border-dark rounded-full h-10 pl-10 pr-4 w-48 focus:w-64 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-primary" placeholder="Search" type="search"/>
+<div class="absolute left-3 top-1/2 -translate-y-1/2 text-muted-light dark:text-muted-dark">
+<svg fill="currentColor" height="20px" viewBox="0 0 256 256" width="20px" xmlns="http://www.w3.org/2000/svg"><path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path></svg>
+</div>
+</div>
+<button class="flex items-center justify-center size-10 rounded-full hover:bg-primary/20 dark:hover:bg-primary/30 transition-colors">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg"><path d="M178,32c-20.65,0-38.73,8.88-50,23.89C116.73,40.88,98.65,32,78,32A62.07,62.07,0,0,0,16,94c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,220.66,240,164,240,94A62.07,62.07,0,0,0,178,32ZM128,206.8C109.74,196.16,32,147.69,32,94A46.06,46.06,0,0,1,78,48c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,147.61,146.24,196.15,128,206.8Z"></path></svg>
+</button>
+<button class="flex items-center justify-center size-10 rounded-full hover:bg-primary/20 dark:hover:bg-primary/30 transition-colors">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg"><path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,160H40V56H216V200ZM176,88a48,48,0,0,1-96,0,8,8,0,0,1,16,0,32,32,0,0,0,64,0,8,8,0,0,1,16,0Z"></path></svg>
+</button>
+</div>
+</div>
+</div>
+</header>
+<main class="flex-grow container mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-24">
+<div class="max-w-2xl mx-auto bg-card-light dark:bg-card-dark rounded-xl shadow-lg overflow-hidden">
+<div class="p-8 text-center">
+<svg class="w-16 h-16 mx-auto text-primary" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+<h1 class="text-3xl font-bold mt-4">Order Confirmed!</h1>
+<p class="text-muted-light dark:text-muted-dark mt-2">
+            Thank you, Priya, your order has been successfully placed. You will receive an email confirmation shortly.
+          </p>
+</div>
+<div class="px-8 pb-8">
+<div class="border-t border-border-light dark:border-border-dark pt-6">
+<dl class="space-y-4">
+<div class="flex justify-between items-center">
+<dt class="font-medium text-muted-light dark:text-muted-dark">Order Number</dt>
+<dd class="font-semibold text-primary">1234567890</dd>
+</div>
+<div class="flex justify-between items-center">
+<dt class="font-medium text-muted-light dark:text-muted-dark">Estimated Delivery</dt>
+<dd class="font-semibold">July 15 - July 18</dd>
+</div>
+<div>
+<dt class="font-medium text-muted-light dark:text-muted-dark mb-1">Shipping Address</dt>
+<dd class="font-semibold">123 Lotus Lane, Mumbai, Maharashtra, 400001</dd>
+</div>
+</dl>
+</div>
+<div class="border-t border-border-light dark:border-border-dark mt-6 pt-6">
+<h3 class="text-lg font-bold mb-4">Order Summary</h3>
+<ul class="space-y-4">
+<li class="flex items-center gap-4">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg w-16 h-16" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBM9qUXz6ZvpvsDmFq63G9KG5vG4Smd6zroQek0tRZ0631mx2Fix4KdduYxoTE6av1EQRiekoFCfUaSAC6xRDzfFF5T_1U6daDc0ZmKnBtVVeWbBIrBurpo6p1OnKeBiWnKghI2ZTOJhIaMoBZeXYmVJL1-tJVlPcF6DxkDiTircOmE9TUY-7FQ7J5xyGLUdZJ0VTEOj5VOg2xf9hlptxpv_cWHjyAQh7LCveizxulR0ydYuO8L2F0B0rVmLnX2FfNZKshs7fV1LUc");'></div>
+<div class="flex-1">
+<p class="font-semibold">Embroidered Kurta Set</p>
+<p class="text-sm text-muted-light dark:text-muted-dark">Size: M</p>
+</div>
+</li>
+<li class="flex items-center gap-4">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg w-16 h-16" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD7IScdHULVORcoAs1S95Vvfpmk6KD35gqMWg8CJS4msDhO2Fad5f4AaKL9kQ4r43Rij3c47TAM_NVtgG8TOlshTuF0n3Vgx7ZKqcZKh-N2fFm3nlkvSzit9UPmH_wm4ewTpbjdRC8vgaXU_Dsx3Xtwk52jsdTFKcn-v_VDTorfcBtzN1Z8s5en0zHEuQfFhqhsO9qY9Xr_LNfAUedJFU0UrtCJveM5xyDsqlClYqZDW08VOdRn_GANWmWWEfPbUezD8olRZLdroZU");'></div>
+<div class="flex-1">
+<p class="font-semibold">Leather Sandals</p>
+<p class="text-sm text-muted-light dark:text-muted-dark">Size: 7</p>
+</div>
+</li>
+<li class="flex items-center gap-4">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg w-16 h-16" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDpBJtIw9NaXbMtBQbDoWsSW7BD6LFO2huu8iMQ6CFQUaeFzU4983iTDO9FzY_3krHWHJiJbYO8Xf_qIXVYUDGWuVGgxbx_OidATF8p8MpbX3JV98oIYMxWp93RBKsc4XeDjYbJFu-VY-SjdtwrVZpuGhYHXHUuUjqU-4XfmoxJXSv5HtT6SSwuSg0JIDTeMpSV-bi5Ccfl_ljEuSFksYsKdhOgChGQ8DZGjxH5vPP5wsBTukst3tlCQzDbv1cmDxPmfja8U5Oyzg8");'></div>
+<div class="flex-1">
+<p class="font-semibold">Gold Bangles</p>
+<p class="text-sm text-muted-light dark:text-muted-dark">Quantity: 2</p>
+</div>
+</li>
+</ul>
+</div>
+<div class="mt-8 flex flex-col sm:flex-row gap-4">
+<a class="flex-1 text-center bg-primary text-white font-bold py-3 px-6 rounded-lg hover:opacity-90 transition-opacity" href="#">
+              Track Order
+            </a>
+<a class="flex-1 text-center bg-background-light dark:bg-card-dark border border-border-light dark:border-border-dark font-bold py-3 px-6 rounded-lg hover:bg-primary/10 dark:hover:bg-primary/20 transition-colors" href="#">
+              Back to Home
+            </a>
+</div>
+</div>
+</div>
+</main>
+</div>
+
+</body></html>
