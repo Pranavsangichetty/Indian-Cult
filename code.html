@@ -2,120 +2,162 @@
 <html lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>IndianCult - About Us</title>
+<title>IndianCult - FAQs</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;display=swap" rel="stylesheet"/>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<script>
-    tailwind.config = {
-      darkMode: "class",
-      theme: {
-        extend: {
-          colors: {
-            "primary": "#ec4913",
-            "background-light": "#f8f6f6",
-            "background-dark": "#221510",
-          },
-          fontFamily: {
-            "display": ["Newsreader"]
-          },
-          borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
-        },
-      },
-    }
-  </script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#ec4913",
+                        "background-light": "#f8f6f6",
+                        "background-dark": "#221510",
+                    },
+                    fontFamily: {
+                        "display": ["Plus Jakarta Sans"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24
+        }
+        details > summary {
+            list-style: none;
+        }
+        details > summary::-webkit-details-marker {
+            display: none;
+        }
+    </style>
 </head>
-<body class="bg-background-light dark:bg-background-dark font-display text-zinc-900 dark:text-zinc-100">
-<div class="relative flex min-h-screen w-full flex-col">
-<header class="bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm sticky top-0 z-50 border-b border-zinc-200 dark:border-zinc-800">
-<div class="container mx-auto px-6">
-<div class="flex items-center justify-between h-20">
-<div class="flex items-center gap-3">
-<div class="text-primary">
-<svg class="h-8 w-8" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<body class="bg-background-light dark:bg-background-dark font-display text-stone-900 dark:text-stone-100">
+<div class="flex flex-col min-h-screen">
+<header class="sticky top-0 z-10 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm border-b border-stone-200 dark:border-stone-800">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-16">
+<div class="flex items-center gap-8">
+<a class="flex items-center gap-2 text-xl font-bold text-stone-900 dark:text-stone-100" href="#">
+<svg fill="none" height="24" viewBox="0 0 48 48" width="24" xmlns="http://www.w3.org/2000/svg">
 <path clip-rule="evenodd" d="M39.475 21.6262C40.358 21.4363 40.6863 21.5589 40.7581 21.5934C40.7876 21.655 40.8547 21.857 40.8082 22.3336C40.7408 23.0255 40.4502 24.0046 39.8572 25.2301C38.6799 27.6631 36.5085 30.6631 33.5858 33.5858C30.6631 36.5085 27.6632 38.6799 25.2301 39.8572C24.0046 40.4502 23.0255 40.7407 22.3336 40.8082C21.8571 40.8547 21.6551 40.7875 21.5934 40.7581C21.5589 40.6863 21.4363 40.358 21.6262 39.475C21.8562 38.4054 22.4689 36.9657 23.5038 35.2817C24.7575 33.2417 26.5497 30.9744 28.7621 28.762C30.9744 26.5497 33.2417 24.7574 35.2817 23.5037C36.9657 22.4689 38.4054 21.8562 39.475 21.6262ZM4.41189 29.2403L18.7597 43.5881C19.8813 44.7097 21.4027 44.9179 22.7217 44.7893C24.0585 44.659 25.5148 44.1631 26.9723 43.4579C29.9052 42.0387 33.2618 39.5667 36.4142 36.4142C39.5667 33.2618 42.0387 29.9052 43.4579 26.9723C44.1631 25.5148 44.659 24.0585 44.7893 22.7217C44.9179 21.4027 44.7097 19.8813 43.5881 18.7597L29.2403 4.41187C27.8527 3.02428 25.8765 3.02573 24.2861 3.36776C22.6081 3.72863 20.7334 4.58419 18.8396 5.74801C16.4978 7.18716 13.9881 9.18353 11.5858 11.5858C9.18354 13.988 7.18717 16.4978 5.74802 18.8396C4.58421 20.7334 3.72865 22.6081 3.36778 24.2861C3.02574 25.8765 3.02429 27.8527 4.41189 29.2403Z" fill="currentColor" fill-rule="evenodd"></path>
 </svg>
-</div>
-<h1 class="text-2xl font-bold text-zinc-900 dark:text-zinc-100">IndianCult</h1>
-</div>
-<nav class="hidden lg:flex items-center gap-8">
-<a class="text-sm font-medium hover:text-primary transition-colors" href="#">New Arrivals</a>
-<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Women</a>
-<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Men</a>
-<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Kids</a>
-<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Ornaments</a>
-<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Footwear</a>
+                            IndianCult
+                        </a>
+<nav class="hidden md:flex items-center gap-6">
+<a class="text-sm font-medium text-stone-600 dark:text-stone-300 hover:text-primary dark:hover:text-primary transition-colors" href="#">New Arrivals</a>
+<a class="text-sm font-medium text-stone-600 dark:text-stone-300 hover:text-primary dark:hover:text-primary transition-colors" href="#">Women</a>
+<a class="text-sm font-medium text-stone-600 dark:text-stone-300 hover:text-primary dark:hover:text-primary transition-colors" href="#">Men</a>
+<a class="text-sm font-medium text-stone-600 dark:text-stone-300 hover:text-primary dark:hover:text-primary transition-colors" href="#">Kids</a>
+<a class="text-sm font-medium text-stone-600 dark:text-stone-300 hover:text-primary dark:hover:text-primary transition-colors" href="#">Ornaments</a>
+<a class="text-sm font-medium text-stone-600 dark:text-stone-300 hover:text-primary dark:hover:text-primary transition-colors" href="#">Footwear</a>
 </nav>
+</div>
 <div class="flex items-center gap-4">
-<button class="p-2 rounded-full hover:bg-primary/20 dark:hover:bg-primary/30 transition-colors">
-<span class="material-symbols-outlined text-zinc-800 dark:text-zinc-200">search</span>
+<div class="hidden sm:block">
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-stone-500 dark:text-stone-400">search</span>
+<input class="w-full pl-10 pr-4 py-2 rounded-lg bg-stone-100 dark:bg-stone-800 text-stone-900 dark:text-stone-100 placeholder:text-stone-500 dark:placeholder:text-stone-400 focus:outline-none focus:ring-2 focus:ring-primary" placeholder="Search" type="search"/>
+</div>
+</div>
+<button class="hidden lg:inline-flex items-center justify-center rounded-lg px-4 py-2 text-sm font-semibold text-stone-700 dark:text-stone-200 bg-stone-200 dark:bg-stone-700 hover:bg-stone-300 dark:hover:bg-stone-600 transition-colors">Sign in</button>
+<button class="p-2 rounded-full hover:bg-stone-200 dark:hover:bg-stone-700 transition-colors">
+<span class="material-symbols-outlined text-stone-600 dark:text-stone-300">favorite</span>
 </button>
-<button class="p-2 rounded-full hover:bg-primary/20 dark:hover:bg-primary/30 transition-colors">
-<span class="material-symbols-outlined text-zinc-800 dark:text-zinc-200">person</span>
-</button>
-<button class="p-2 rounded-full hover:bg-primary/20 dark:hover:bg-primary/30 transition-colors">
-<span class="material-symbols-outlined text-zinc-800 dark:text-zinc-200">shopping_bag</span>
+<button class="p-2 rounded-full hover:bg-stone-200 dark:hover:bg-stone-700 transition-colors">
+<span class="material-symbols-outlined text-stone-600 dark:text-stone-300">shopping_bag</span>
 </button>
 </div>
 </div>
 </div>
 </header>
-<main class="flex-grow">
-<div class="container mx-auto px-6 py-16 lg:py-24">
+<main class="flex-grow container mx-auto px-4 sm:px-6 lg:px-8 py-12">
 <div class="max-w-4xl mx-auto">
 <div class="text-center mb-12">
-<p class="text-sm font-semibold text-primary uppercase tracking-widest">Our Story</p>
-<h1 class="text-4xl md:text-6xl font-bold mt-2 text-zinc-900 dark:text-zinc-100">About IndianCult</h1>
-<p class="mt-6 text-lg text-zinc-600 dark:text-zinc-400 max-w-3xl mx-auto">
-              At IndianCult, we're more than just a shopping platform; we're a celebration of India's rich cultural heritage. Our journey began with a simple yet profound vision: to bring the vibrant tapestry of Indian festival wear to your doorstep, no matter where you are in the world.
-            </p>
+<h1 class="text-4xl md:text-5xl font-extrabold text-stone-900 dark:text-stone-100 mb-2">Frequently Asked Questions</h1>
+<p class="text-lg text-stone-600 dark:text-stone-400">Find answers to your questions about our products and services.</p>
 </div>
-<div class="prose prose-lg dark:prose-invert max-w-none text-zinc-700 dark:text-zinc-300 space-y-8">
-<p>
-              We believe that clothing is an expression of identity, a way to connect with traditions, and a source of joy. That's why we curate a diverse collection of dresses, footwear, and ornaments for men, women, and children, each piece reflecting the artistry and craftsmanship of India's finest artisans.
-            </p>
-<div class="bg-background-dark/5 dark:bg-background-light/5 p-8 rounded-lg border border-zinc-200 dark:border-zinc-800">
-<h2 class="text-2xl font-bold mb-4 text-zinc-900 dark:text-zinc-100">Our Mission</h2>
-<p>
-                    Our mission is to empower individuals to embrace their cultural roots and celebrate festivals with style and authenticity. We strive to be the leading destination for Indian festival wear, offering a seamless shopping experience, exceptional quality, and a wide range of choices to suit every taste and occasion. We are committed to ethical sourcing, supporting local artisans, and promoting sustainable practices within the fashion industry.
-                </p>
+<div class="mb-12">
+<div class="relative">
+<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-stone-500 dark:text-stone-400 text-2xl">search</span>
+<input class="w-full pl-14 pr-4 py-4 rounded-xl bg-white dark:bg-stone-800 text-stone-900 dark:text-stone-100 placeholder:text-stone-500 dark:placeholder:text-stone-400 focus:outline-none focus:ring-2 focus:ring-primary border border-stone-200 dark:border-stone-700" placeholder="Search for a question..." type="search"/>
 </div>
-<div>
-<h2 class="text-2xl font-bold mb-4 text-zinc-900 dark:text-zinc-100">Our Values</h2>
-<ul class="space-y-4 list-disc pl-6">
-<li><strong class="font-semibold text-zinc-800 dark:text-zinc-200">Authenticity:</strong> We are dedicated to providing genuine, high-quality products that honor the traditions and artistry of Indian craftsmanship.</li>
-<li><strong class="font-semibold text-zinc-800 dark:text-zinc-200">Diversity:</strong> We celebrate the diversity of Indian culture and offer a wide range of styles to cater to different tastes and preferences.</li>
-<li><strong class="font-semibold text-zinc-800 dark:text-zinc-200">Customer-Centricity:</strong> We prioritize our customers' satisfaction and strive to provide exceptional service and support.</li>
-<li><strong class="font-semibold text-zinc-800 dark:text-zinc-200">Ethical Practices:</strong> We are committed to ethical sourcing, fair labor practices, and environmental sustainability.</li>
-<li><strong class="font-semibold text-zinc-800 dark:text-zinc-200">Community:</strong> We aim to build a community of individuals who share a passion for Indian culture and festival celebrations.</li>
-</ul>
 </div>
-<div>
-<h2 class="text-2xl font-bold mb-4 text-zinc-900 dark:text-zinc-100">Our History</h2>
-<p>
-                IndianCult was founded in 2020 by a group of friends who shared a deep appreciation for Indian culture and a desire to make it more accessible to a global audience. Inspired by their own experiences of celebrating festivals and the joy of wearing traditional attire, they set out to create a platform that would connect people with the beauty and richness of Indian festival wear. From humble beginnings, IndianCult has grown into a thriving online community, serving customers around the world and partnering with talented artisans across India. Our journey is a testament to the power of passion, perseverance, and a shared love for cultural heritage.
-              </p>
+<div class="flex flex-col md:flex-row gap-12">
+<aside class="md:w-1/4">
+<nav class="sticky top-24 flex flex-col gap-2">
+<a class="px-4 py-2 rounded-lg font-semibold bg-primary text-white" href="#">Shipping</a>
+<a class="px-4 py-2 rounded-lg font-semibold text-stone-600 dark:text-stone-300 hover:bg-primary/10 dark:hover:bg-primary/20 hover:text-primary" href="#">Returns</a>
+<a class="px-4 py-2 rounded-lg font-semibold text-stone-600 dark:text-stone-300 hover:bg-primary/10 dark:hover:bg-primary/20 hover:text-primary" href="#">Payments</a>
+<a class="px-4 py-2 rounded-lg font-semibold text-stone-600 dark:text-stone-300 hover:bg-primary/10 dark:hover:bg-primary/20 hover:text-primary" href="#">Orders</a>
+<a class="px-4 py-2 rounded-lg font-semibold text-stone-600 dark:text-stone-300 hover:bg-primary/10 dark:hover:bg-primary/20 hover:text-primary" href="#">Account</a>
+</nav>
+</aside>
+<div class="md:w-3/4">
+<div class="space-y-4">
+<details class="group bg-white dark:bg-stone-800 rounded-xl p-6 border border-stone-200 dark:border-stone-700" open="">
+<summary class="flex items-center justify-between cursor-pointer">
+<h3 class="text-lg font-semibold text-stone-900 dark:text-stone-100">How long does shipping take?</h3>
+<span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 text-stone-500 dark:text-stone-400">expand_more</span>
+</summary>
+<p class="mt-4 text-stone-600 dark:text-stone-300">
+                                    Shipping typically takes 3-5 business days within the country. International shipping times vary depending on the destination. You will receive a tracking number once your order has shipped.
+                                </p>
+</details>
+<details class="group bg-white dark:bg-stone-800 rounded-xl p-6 border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer">
+<h3 class="text-lg font-semibold text-stone-900 dark:text-stone-100">What are the shipping costs?</h3>
+<span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 text-stone-500 dark:text-stone-400">expand_more</span>
+</summary>
+<p class="mt-4 text-stone-600 dark:text-stone-300">
+                                   Shipping costs are calculated at checkout based on your location and the weight of your order. We offer free shipping on all orders over ₹2000 within India.
+                                </p>
+</details>
+<details class="group bg-white dark:bg-stone-800 rounded-xl p-6 border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer">
+<h3 class="text-lg font-semibold text-stone-900 dark:text-stone-100">Do you ship internationally?</h3>
+<span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 text-stone-500 dark:text-stone-400">expand_more</span>
+</summary>
+<p class="mt-4 text-stone-600 dark:text-stone-300">
+                                   Yes, we ship to most countries worldwide. International shipping rates and delivery times will be calculated at checkout. Please note that customers are responsible for any customs and import duties.
+                                </p>
+</details>
+<details class="group bg-white dark:bg-stone-800 rounded-xl p-6 border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer">
+<h3 class="text-lg font-semibold text-stone-900 dark:text-stone-100">How can I track my order?</h3>
+<span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 text-stone-500 dark:text-stone-400">expand_more</span>
+</summary>
+<p class="mt-4 text-stone-600 dark:text-stone-300">
+                                    Once your order has been dispatched, you will receive an email with your tracking number and a link to the courier's website where you can track your package.
+                                </p>
+</details>
+</div>
+<div class="mt-16 text-center bg-primary/10 dark:bg-primary/20 p-8 rounded-xl">
+<h3 class="text-2xl font-bold text-stone-900 dark:text-stone-100 mb-2">Can't find your answer?</h3>
+<p class="text-stone-600 dark:text-stone-300 mb-6">Our customer support team is here to help. Get in touch with us.</p>
+<button class="inline-flex items-center justify-center rounded-lg px-6 py-3 text-base font-semibold text-white bg-primary hover:bg-primary/90 transition-all shadow-lg hover:shadow-primary/40">
+                                Contact Us
+                            </button>
 </div>
 </div>
 </div>
 </div>
 </main>
-<footer class="bg-background-light dark:bg-background-dark border-t border-zinc-200 dark:border-zinc-800">
-<div class="container mx-auto px-6 py-12">
-<div class="flex flex-col md:flex-row items-center justify-between gap-8">
-<div class="flex flex-wrap justify-center md:justify-start gap-x-6 gap-y-4 text-center">
-<a class="text-sm text-zinc-600 dark:text-zinc-400 hover:text-primary dark:hover:text-primary transition-colors" href="#">Contact Us</a>
-<a class="text-sm text-zinc-600 dark:text-zinc-400 hover:text-primary dark:hover:text-primary transition-colors" href="#">FAQ</a>
-<a class="text-sm text-zinc-600 dark:text-zinc-400 hover:text-primary dark:hover:text-primary transition-colors" href="#">Shipping &amp; Returns</a>
-<a class="text-sm text-zinc-600 dark:text-zinc-400 hover:text-primary dark:hover:text-primary transition-colors" href="#">Privacy Policy</a>
-<a class="text-sm text-zinc-600 dark:text-zinc-400 hover:text-primary dark:hover:text-primary transition-colors" href="#">Terms of Service</a>
-</div>
-<p class="text-sm text-zinc-500 dark:text-zinc-500 text-center md:text-right">© 2024 IndianCult. All rights reserved.</p>
-</div>
-</div>
-</footer>
 </div>
 
 </body></html>
