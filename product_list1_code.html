@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>IndianCult - Festival Wear</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: '#ec4913',
+              'background-light': '#f8f6f6',
+              'background-dark': '#221510',
+            },
+            fontFamily: {
+              display: ['Plus Jakarta Sans', 'sans-serif'],
+            },
+            borderRadius: {
+              DEFAULT: '0.25rem',
+              lg: '0.5rem',
+              xl: '0.75rem',
+              full: '9999px',
+            },
+          },
+        },
+      };
+    </script>
+<style>
+      .kite::before {
+        content: '';
+        position: absolute;
+        top: -20px;
+        right: -20px;
+        width: 40px;
+        height: 40px;
+        background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 0L35 15L20 40L5 15L20 0Z' fill='%23EC4913'/%3E%3C/svg%3E%0A");
+        background-repeat: no-repeat;
+        background-size: contain;
+        opacity: 0.2;
+      }
+      .diya::before {
+        content: '';
+        position: absolute;
+        bottom: -15px;
+        right: -15px;
+        width: 50px;
+        height: 50px;
+        background-image: url("data:image/svg+xml,%3Csvg width='50' height='50' viewBox='0 0 50 50' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M25 37.5C34.3891 37.5 42 34.3891 42 30C42 25.6109 34.3891 22.5 25 22.5C15.6109 22.5 8 25.6109 8 30C8 34.3891 15.6109 37.5 25 37.5Z' fill='%23EC4913' opacity='0.2'/%3E%3Cpath d='M25 25C26.3807 25 27.5 23.8807 27.5 22.5C27.5 21.1193 26.3807 20 25 20C23.6193 20 22.5 21.1193 22.5 22.5C22.5 23.8807 23.6193 25 25 25Z' fill='%23EC4913' opacity='0.4'/%3E%3Cpath d='M25 22.5C25.6904 22.5 26.25 21.1904 26.25 20C26.25 18.8096 25.6904 17.5 25 17.5C24.3096 17.5 23.75 18.8096 23.75 20C23.75 21.1904 24.3096 22.5 25 22.5Z' fill='orange'/%3E%3C/svg%3E%0A");
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+    </style>
+</head>
+<body class="font-display bg-background-light dark:bg-background-dark text-black dark:text-white">
+<div class="flex flex-col min-h-screen">
+<header class="sticky top-0 z-50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm border-b border-black/10 dark:border-white/10">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-16">
+<div class="flex items-center gap-8">
+<a class="flex items-center gap-2" href="#">
+<svg class="h-8 w-8 text-primary" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M39.475 21.6262C40.358 21.4363 40.6863 21.5589 40.7581 21.5934C40.7876 21.655 40.8547 21.857 40.8082 22.3336C40.7408 23.0255 40.4502 24.0046 39.8572 25.2301C38.6799 27.6631 36.5085 30.6631 33.5858 33.5858C30.6631 36.5085 27.6632 38.6799 25.2301 39.8572C24.0046 40.4502 23.0255 40.7407 22.3336 40.8082C21.8571 40.8547 21.6551 40.7875 21.5934 40.7581C21.5589 40.6863 21.4363 40.358 21.6262 39.475C21.8562 38.4054 22.4689 36.9657 23.5038 35.2817C24.7575 33.2417 26.5497 30.9744 28.7621 28.762C30.9744 26.5497 33.2417 24.7574 35.2817 23.5037C36.9657 22.4689 38.4054 21.8562 39.475 21.6262ZM4.41189 29.2403L18.7597 43.5881C19.8813 44.7097 21.4027 44.9179 22.7217 44.7893C24.0585 44.659 25.5148 44.1631 26.9723 43.4579C29.9052 42.0387 33.2618 39.5667 36.4142 36.4142C39.5667 33.2618 42.0387 29.9052 43.4579 26.9723C44.1631 25.5148 44.659 24.0585 44.7893 22.7217C44.9179 21.4027 44.7097 19.8813 43.5881 18.7597L29.2403 4.41187C27.8527 3.02428 25.8765 3.02573 24.2861 3.36776C22.6081 3.72863 20.7334 4.58419 18.8396 5.74801C16.4978 7.18716 13.9881 9.18353 11.5858 11.5858C9.18354 13.988 7.18717 16.4978 5.74802 18.8396C4.58421 20.7334 3.72865 22.6081 3.36778 24.2861C3.02574 25.8765 3.02429 27.8527 4.41189 29.2403Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+<h1 class="text-xl font-bold text-black dark:text-white">IndianCult</h1>
+</a>
+<nav class="hidden md:flex items-center gap-6">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Men</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Women</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Kids</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Jewelry</a>
+<a class="text-sm font-bold text-primary" href="#">Sale</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<div class="relative hidden sm:block">
+<span class="absolute inset-y-0 left-0 flex items-center pl-3">
+<svg class="h-5 w-5 text-black/50 dark:text-white/50" fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path>
+</svg>
+</span>
+<input class="form-input w-full rounded-lg border-none bg-black/10 dark:bg-white/10 pl-10 pr-4 py-2 text-sm text-black dark:text-white placeholder-black/50 dark:placeholder-white/50 focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background-light dark:focus:ring-offset-background-dark" placeholder="Search" type="text"/>
+</div>
+<button class="p-2 rounded-full hover:bg-black/10 dark:hover:bg-white/10 transition-colors">
+<svg class="h-6 w-6" fill="currentColor" height="20" viewBox="0 0 256 256" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M178,32c-20.65,0-38.73,8.88-50,23.89C116.73,40.88,98.65,32,78,32A62.07,62.07,0,0,0,16,94c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,220.66,240,164,240,94A62.07,62.07,0,0,0,178,32ZM128,206.8C109.74,196.16,32,147.69,32,94A46.06,46.06,0,0,1,78,48c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,147.61,146.24,196.15,128,206.8Z"></path>
+</svg>
+</button>
+<button class="p-2 rounded-full hover:bg-black/10 dark:hover:bg-white/10 transition-colors">
+<svg class="h-6 w-6" fill="currentColor" height="20" viewBox="0 0 256 256" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,160H40V56H216V200ZM176,88a48,48,0,0,1-96,0,8,8,0,0,1,16,0,32,32,0,0,0,64,0,8,8,0,0,1,16,0Z"></path>
+</svg>
+</button>
+<div class="w-10 h-10 rounded-full bg-cover bg-center" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBYL1xMXA0hJW2JhFqQt23negtbVttKZ8mhRPsrsMlmzfD15rxeQ95iQAVhKiu7-Lrq2kQgcFNKTiWIMvCIS9oBQb2gkpeBC80zCxLCEwXRMJcQ1ChXy1cqv1NznU-mGgGD_OzIpVXnewFSWdm35Q_ec9KUL9YOhsInL00iX0wA0RDbW-pXKjvZAZmPNuECpqpeFykTRtG2h7lD0GpeaasDFxcJbEnpUoplPlwMV--yty4yweRfMHXNGUsmOAwPU4wOqfg1fp-1dBA");'></div>
+</div>
+</div>
+</div>
+</header>
+<main class="flex-grow container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+<div class="mb-12 text-center">
+<h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-primary">
+            Festival Wear
+          </h1>
+<p class="mt-4 max-w-2xl mx-auto text-lg text-black/70 dark:text-white/70">
+            Discover our curated collection of traditional and contemporary
+            attire for your festive celebrations.
+          </p>
+</div>
+<section class="mb-16" id="men">
+<h2 class="text-3xl font-bold mb-6 relative kite">Men's Wear</h2>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+<a class="group" href="#">
+<div class="relative overflow-hidden rounded-lg">
+<img alt="Festive Kurta Sets" class="w-full h-auto aspect-square object-cover group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAoEPit4gSx4AuVIKvYacu1RGvcm7gyEbBtRl5zYToowwGBC86nnZh5iF0rUGPKKXOqXiWOv05mCmnxcRpJehKA5W-YN-hx2SJfsXqs0okaxxPDtGdzj8MwQlvmfH0IQCTak__9uGcWML2AvrtH6pWroQFu7kwUgvQhCf7jEiRtZDctxpExRtX8eh1VbSG4ps-xtSz62r4XO088xvOe7GTUb_eHyZ4kjDEZkZPzYxk7SFLK3En4GjZhKMntkFWzBaX5y9x8SIHPhxA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+<p class="absolute bottom-4 left-4 text-white text-lg font-semibold">
+                  Festive Kurta Sets
+                </p>
+</div>
+</a>
+<a class="group" href="#">
+<div class="relative overflow-hidden rounded-lg">
+<img alt="Embroidered Sherwanis" class="w-full h-auto aspect-square object-cover group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQhdi2P1CGq48Y9S7LzCiKiUU_JQHr-PXi3ojvzL5Kx9ob259_WlOtlaCR97Ui2L5GJQ3PVyXUnpVDXNAvVHnmXSWbQ1AL0YQ-F8YSFf_Ot3aA1L9QBaa1ULH9fwB8p7kchbFVVQDF6pvkp4DZVz6K9aAeMDvPE-vP0_jAN4qGtDYQzOWNNyhmGC52GUFY8qiYgzk-Kk0ns0V_H2e1Umw9SMcwtdxLbruWwaC-foI45hNPor1ufSiqhdaujbz84a_8kvdyzocDkxg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+<p class="absolute bottom-4 left-4 text-white text-lg font-semibold">Embroidered Sherwanis</p>
+</div>
+</a>
+<a class="group" href="#">
+<div class="relative overflow-hidden rounded-lg">
+<img alt="Traditional Dhotis" class="w-full h-auto aspect-square object-cover group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBn30MziP_Gj1xM8kUdGLUrQglQtivvJuF8ecrqAqvQRG1ufgQnMlHgRsY8RdJILzM7eM3v3o0fPm-IzSobCOI5v0c3qx_bA2pf67HDgOGm-_21DUbT8461b0_nwoR1e-q0Vu08DZrXJ_NqhnZU6DZ64xKa6s8vRCmX727h8lxZfJ8Emi5t3k2Awh5hf4mbGkRcuuIYEDEIqwcXqCs6w-uHRGtiR3l7oXxC2iH5YbRFeL12WSudwuvVlsloUWKL91z02_11h0nxdBs"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+<p class="absolute bottom-4 left-4 text-white text-lg font-semibold">Traditional Dhotis</p>
+</div>
+</a>
+<a class="group" href="#">
+<div class="relative overflow-hidden rounded-lg">
+<img alt="Stylish Nehru Jackets" class="w-full h-auto aspect-square object-cover group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAHK4zqFzD98rBge2ShYLM-RTOodnDY7PQ2IYJrbsu-0yjzXjkTnbvrtmsG7wQAggfvrN_30TOeRhqOOx-Y69ZhwgFZD5biBK1zjmJXOWvSQwot7xueo4lpZxBpju7kwAXb-434TR6uqPz8nHkT967IXRwssrmjHw18vjtr-Qj3n49VApPxEUEB2zLufLH2ACplZJT9YzPrJF0IGkGsRXP22pytPa7aPUwGupWWCr2z4reClGbRGWQ39ay4cfjR7OLSAYLy1eL0UO8"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+<p class="absolute bottom-4 left-4 text-white text-lg font-semibold">Stylish Nehru Jackets</p>
+</div>
+</a>
+</div>
+</section>
+<section class="mb-16" id="women">
+<h2 class="text-3xl font-bold mb-6 relative diya">Women's Wear</h2>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+<a class="group" href="#">
+<div class="relative overflow-hidden rounded-lg">
+<img alt="Elegant Sarees" class="w-full h-auto aspect-square object-cover group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCDrFlO-ebnDW52pgUoPPhZAGcoDpv-Q4d5mrxxQbAi2h6x_0a7gq0auk1EtpeWec4PaYHkxGPhIj5kIqDz47rJPMMjIPRSdQtgHFYKOyVMV3n34bTBV-ekqqzVv8Hlg8IJbvNhDzR1VQuObtdbQPN67Cpb2okuo4I1XVLjlchSM7DRjMiEMZXFsijTqVwDqqB8eRgliG4BCqOJrufVCKtoX0afWnEl6G5jDrYlSmxm_UKcbjp2uLztyuV-XfX7yFIMLB2BZyCiXtc"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+<p class="absolute bottom-4 left-4 text-white text-lg font-semibold">Elegant Sarees</p>
+</div>
+</a>
+<a class="group" href="#">
+<div class="relative overflow-hidden rounded-lg">
+<img alt="Festive Lehengas" class="w-full h-auto aspect-square object-cover group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCV55APjI9K-FKuyJta2j8fdoJP3UR497zpX3DSjN5THmabaN4mKeBofrrw71f1XeqWg3R9SsVInOaZv8NDiVvvShZnL6bvbT7Wa8QqyJf9nqYwWv8B-lJZ8Io8Dcn7-w7-mWNgBwBn1W-VEWubeOgGe5bjTsvwtSsiwOcJ9vAQS9THnZLZOgUTBE4eNTMlOO90qFh5wNaPtPI--7tDI1I2io_bhsUiwMmijLz22emp5XaNeaBm03uTFJCiwBrMoedewW1a_psP-tQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+<p class="absolute bottom-4 left-4 text-white text-lg font-semibold">Festive Lehengas</p>
+</div>
+</a>
+<a class="group" href="#">
+<div class="relative overflow-hidden rounded-lg">
+<img alt="Stylish Anarkalis" class="w-full h-auto aspect-square object-cover group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQx22aSVd9APL-ncIeXRhRIsTRmrTR9wkWFDyAZVpqFKoX876SqIMYWxr_oMotpk_BpboGya6CroZ8hU_aD7uJN1-ZPyVYkPFjM3xj1b_FIyW1zO8wdtZhQ1jdSxHtrUBq2IYLbAJIINCjbv8FV6Jru87bqXS0lsY323lVpreMmnn_kNB3_YKCV3WAk_fn-_QD2C9D-vlTzlpFJqcMu_-y_RUKUaOpj2hISlU2ygwKcp8C1P8-oQV-a4BS16eiamAEG53vjayyw84"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+<p class="absolute bottom-4 left-4 text-white text-lg font-semibold">Stylish Anarkalis</p>
+</div>
+</a>
+<a class="group" href="#">
+<div class="relative overflow-hidden rounded-lg">
+<img alt="Embroidered Kurtis" class="w-full h-auto aspect-square object-cover group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChILO9Rq28TUDyNmWRgQcS0_xcAn-rmUCTcZ8wIvFf_gyw7UoILZFsgX-hAij65-to5esoD_wdpsht8X1eQwUPzIqIQXGqJz4Fm1yAkuEh7-SjlPEsyBNGEjhZEdNUWrFDCf0gP38HAayz9Gxlj4LQf4XvQsZ5z5gK_X8ExAJVF0Eun3qNgUXoFlsP0gqnKCZr1ZctJbYDmedAT1vTQLhtpojg0OeSR466eSdj0dvm8BV-nKvINk4rVxrElawN8pW8atafgPLU9gY"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+<p class="absolute bottom-4 left-4 text-white text-lg font-semibold">Embroidered Kurtis</p>
+</div>
+</a>
+</div>
+</section>
+<section class="mb-16" id="kids">
+<h2 class="text-3xl font-bold mb-6">Little Ones</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div>
+<h3 class="text-2xl font-semibold mb-4 text-center text-primary">Little Princes</h3>
+<div class="grid grid-cols-2 gap-4">
+<a class="group" href="#">
+<div class="overflow-hidden rounded-lg"><img alt="Kids Kurta Sets" class="w-full h-auto aspect-square object-cover group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCO4fcPeIiIJlnuheEl_aI-wU5Ufo9Gq_HWVloAVyNVTNQV6fFE3j5Tb_IKyriekxVDsGIkVm2OQnXTnE8ced0GVaaQHxyIphUiPXY_zjdCrQFGllVJQSWR1eRBHEqMM_Hf9N-qT7xoxMixd00eI3bL0Y6mz4ZMKcmBQIc5KDCeETVCUM-aTLozQsAkdj8wUrjh9YIbtgomT3sADi77E2ZTMZXfmn4yShjLDdJuF9QnoWHIGaluD9blYd7vEQ9VmB0NYWi_vUNDjN4"/></div>
+<p class="mt-2 text-center font-medium">Kids Kurta Sets</p>
+</a>
+<a class="group" href="#">
+<div class="overflow-hidden rounded-lg"><img alt="Kids Sherwanis" class="w-full h-auto aspect-square object-cover group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAnL1pObugOPoFlQabhqqQUN3juHMdoazPtRqXSXmQsUhPyKYbkH_40kELF8CZW4u7mer64Ubpp9iH9ZfHBaabyufK6WXt1mVqtDpxP-OttTW5HDIH77U6VvglwI13bz9waruOs0Jj927dATT2lzTxYBrafwbwPZ7Bh4PT9QICdFWGU3GsIRzjBZwF1H10oLZAsT57IQRGhk-_x47IWBHkEYE0kHMqS8JOSu9US6cL6P8opdFD7MxrArPIF7PHQ1r2m-1lAqQl1zDI"/></div>
+<p class="mt-2 text-center font-medium">Kids Sherwanis</p>
+</a>
+</div>
+</div>
+<div>
+<h3 class="text-2xl font-semibold mb-4 text-center text-primary">Little Princesses</h3>
+<div class="grid grid-cols-2 gap-4">
+<a class="group" href="#">
+<div class="overflow-hidden rounded-lg"><img alt="Kids Lehengas" class="w-full h-auto aspect-square object-cover group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5CoeJOz2AfAZ9iD3B_rVAyCYUy6BdCq7L7LLhSU9lHIlNvQqar2R0trlbYvH9Opnzg9t71ikJWs6-___eozQPwVr8xkhIvH6WetwnluBzbchE84qhlo8pUx_fyEVK9zMnOtzhc-Kp73T3prQFOHlVr6K1RUoxOVPynmun1e5qQLS7s_ovBdCk_mFLN2H_JZhXi4a_T2aVnlFFfDh0sgQ4lfJDGZA0fPEY4jZl9d2gX-wlbG9k9Ta38wtUJLOyaH2-znd2L2GFMpQ"/></div>
+<p class="mt-2 text-center font-medium">Kids Lehengas</p>
+</a>
+<a class="group" href="#">
+<div class="overflow-hidden rounded-lg"><img alt="Kids Anarkalis" class="w-full h-auto aspect-square object-cover group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCn1IZ2GO47-R1OfWSjlQdA4E_eiX1OQXHfPn6etrU4atNr_i0ItLFyKRneuRw6DB9rPeklMD6tWA8Xj8q7lkdWkDxJzfsStoN8cm_Zo8sspBJ5GPgF92GdOwK5XFZHCKFv-olIHTkLCjKPv37Khjl1W40GYaULDp0n95z0itPJYWeoI2E5hgDihkEqBhM1I914s0E8dAEyfmpk6wwJWKtIP82oTS1lkfG0wo96Zvz97U475XWJrE45q1lGKpzPtcA91dWdKVbJbVU"/></div>
+<p class="mt-2 text-center font-medium">Kids Anarkalis</p>
+</a>
+</div>
+</div>
+</div>
+</section>
+</main>
+</div>
+
+</body></html>
