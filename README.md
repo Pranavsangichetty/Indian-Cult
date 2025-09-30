@@ -17,13 +17,13 @@ Customer Testimonials/Reviews section.
 
 Product/Services Listing Pages
 
-Men’s Wear (with kite designs).
+Men’s Wear.
 
-Women’s Wear (with Diwali lamp designs).
+Women’s Wear.
 
-Little Princes (with toy designs).
+Little Princes.
 
-Little Princesses (with toy designs).
+Little Princesses.
 
 Product Details Page
 
